@@ -2,15 +2,19 @@
 *.exe
 *.out
 
+
 # Object files
 *.o
 *.obj
 
+
 # Debug files
 *.pdb
 
+
 # VS Code
 .vscode/
+
 
 # Logs
 *.log
