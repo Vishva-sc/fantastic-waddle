@@ -2,6 +2,7 @@
 int main()
 {
     int a,b,c,avg;
+    
     printf("Enter value of a:");
     scanf("%d",&a);
     printf("Enter value of b:");
