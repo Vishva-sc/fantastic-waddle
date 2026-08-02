@@ -10,6 +10,6 @@ int main(){
     printf("Enter the Time Period in years: ");
     scanf("%d",&N);
     SI = (P * R * N) / 100;
-    printf("The Simple Interest is: %f", SI);
+    printf("The Simple Interest is: %.2f", SI);
     return 0;
 }
