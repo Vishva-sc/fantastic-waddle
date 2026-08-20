@@ -5,7 +5,7 @@ int main() {
     float avg;
 
     printf("Enter value of a: ");
-    scanf("%f", &a); // %f for float
+    scanf("%f", &a); 
     printf("Enter value of b: ");
     scanf("%f", &b);
     printf("Enter value of c: ");
