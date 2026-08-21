@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int main()
 {
-    int rN=(rand()%100)+1;
+    int rN=(rand()%100)+1; //its going to give the same random number without time
 
     for ( ; ; )
     {
