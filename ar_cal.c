@@ -4,7 +4,7 @@ int main() {
     char operator;
     double num1, num2, result;
 
-    // Display available operations to the user
+    
     printf("====================================\n");
     printf("      Simple Arithmetic Calculator   \n");
     printf("====================================\n");
@@ -18,7 +18,6 @@ int main() {
         return 1; // Exit program due to bad input
     }
 
-    // Process the selected mathematical operation
     switch (operator) {
         case '+':
             result = num1 + num2;
