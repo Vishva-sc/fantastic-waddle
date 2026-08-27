@@ -5,7 +5,6 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    // Validate input to ensure it is positive or zero
     if (n < 0) {
         printf("Factorial of negative numbers is not defined.\n");
         return 0;
@@ -14,7 +13,6 @@ int main() {
     long long factorial = 1;
     int i = 1; // Initialize loop counter
 
-    // Loop calculates the total product
     while (i <= n) {
         factorial *= i; 
         i++; 
